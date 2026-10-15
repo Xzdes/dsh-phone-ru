@@ -1,0 +1,5 @@
+# Bundle patch layer for dsh-phone-ru.
+# Одна insert-строка монтирует хост; веб-половина — из dsh.client в package.json.
+- insert:
+    - id: phone-ru
+      name: dsh-phone-ru
